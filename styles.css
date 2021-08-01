@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Oswald;
+}
+.arc h3 {
+  display: inline;
+}
+body {
+  background: url("bg.jpg");
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: animate 5s linear infinite alternate;
+  background-attachment: fixed;
+}
+
+@keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.image img {
+  height: 200px;
+  width: 200px;
+}
+
+.navbar {
+  background: linear-gradient(to bottom right, #0a0a0a 33%, #9900cc 100%);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+#hid {
+  display: flex;
+  justify-content: space-between;
+}
